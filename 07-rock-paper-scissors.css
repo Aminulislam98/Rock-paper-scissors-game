@@ -47,7 +47,7 @@
 }
 body {
   font-family: arial;
-  overflow: hidden; /* no scrollbars, no scrolling */
+
 
 }
 .RPS-title {
@@ -213,11 +213,7 @@ body {
   border-radius: 5px;
 }
 @media (max-width: 586px) {
-  body {
 
-  user-select: none;           /* Prevent text selection */
-
-}
   
   .RPS-container {
     width: 100%;
