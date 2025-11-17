@@ -214,12 +214,9 @@ body {
 }
 @media (max-width: 586px) {
   body {
-  overflow: hidden;            /* Prevent scrolling */
+
   user-select: none;           /* Prevent text selection */
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-touch-callout: none; /* Prevent long press menu */
+
 }
   
   .RPS-container {
