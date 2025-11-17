@@ -16,7 +16,9 @@
   justify-content: space-around;
   align-items: center;
 }
-
+input:focus {
+  outline: none;
+}
 .js-wins,
 .js-losses,
 .js-ties {
