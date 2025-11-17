@@ -47,6 +47,8 @@
 }
 body {
   font-family: arial;
+  overflow: hidden; /* no scrollbars, no scrolling */
+  touch-action: none;
 }
 .RPS-title {
   font-size: 30px;
